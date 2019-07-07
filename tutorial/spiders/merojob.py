@@ -4,7 +4,7 @@ import scrapy
 class MeroJobSpider(scrapy.Spider):
     name = 'merojob'
 
-    start_urls = ['https://merojob.com/search/?q=django']
+    start_urls = ['https://merojob.com/search/?q=python']
 
     def parse(self, response):
         # follow links to job pages
